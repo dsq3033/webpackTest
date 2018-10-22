@@ -4,7 +4,6 @@ const open = require('open');
 const WebpackDevServer = require('webpack-dev-server');
 
 const compiler = webpack(conf);
-
 // const devServer = new (compiler, { HOT:true,open:true});
 // devServer.listen(8888,function(){
 //     open('http://localhost:8888','chrome');
